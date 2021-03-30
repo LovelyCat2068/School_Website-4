@@ -1,0 +1,27 @@
+.img_1, .img_2{
+    height: 200px;
+    width: 300px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv{
+    float: left;
+    padding: 5px;
+    width: 33.33%;
+}
+
+.movie_head i{
+    float: right;
+}
+
+.movie_head{
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+}
